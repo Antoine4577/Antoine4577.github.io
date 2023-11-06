@@ -1,6 +1,6 @@
 body
 {
-    background-color: #1A1B20
+    background-color: #181825
 }
 .antoine
 {
@@ -39,8 +39,8 @@ body
 
 .logo
 {
-    max-height: 220px;
-    width: 220px;
+    max-height: 280px;
+    width: 280px;
 }
 .marque
 {
@@ -55,7 +55,7 @@ body
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    width: 220px;
+    width: 280px;
 }
 .present
 {
