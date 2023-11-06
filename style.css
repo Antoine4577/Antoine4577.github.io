@@ -39,13 +39,23 @@ body
 
 .logo
 {
-    max-width: 220px;
-    height: auto;
+    max-height: 220px;
+    width: 220px;
+}
+.marque
+{
+    height: 130px;
+    width: 440px;
+    margin-left: 30px;
+    padding-left: 0px;
+    margin-top: 46px;
+    margin-bottom: 24px;
 }
 .bandeau {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+    width: 220px;
 }
 .present
 {
@@ -151,4 +161,29 @@ a:hover
 .portfolio
 {
     margin-left: 30px;
+}
+.services
+{
+    margin-left: 30px;
+    padding-top: 16px;
+    margin-top: 20px;
+}
+.nomservice
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color:white;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-left: 16px;
+}
+.descripservice
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:white;
+    margin: auto;
+    padding-left: 16px;
+    margin-top: 4px;
 }
