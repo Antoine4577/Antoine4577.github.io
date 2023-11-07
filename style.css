@@ -225,5 +225,14 @@ padding-top: 10px;
 width: 30px;
 height: 18px;
 margin-right: 20px;
-
+}
+.pdf
+{
+    width: 15px;
+    height: 30px;
+}
+.lienicone
+{
+    display: flex;
+    justify-content: right;
 }
