@@ -39,8 +39,8 @@ body
 
 .logo
 {
-    max-height: 280px;
-    width: 280px;
+    max-height: 220px;
+    width: 220px;
 }
 .marque
 {
@@ -48,14 +48,14 @@ body
     width: 440px;
     margin-left: 30px;
     padding-left: 0px;
-    margin-top: 46px;
+    padding-top: 46px;
     margin-bottom: 24px;
 }
 .bandeau {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    width: 280px;
+    width: 220px;
 }
 .present
 {
@@ -67,6 +67,13 @@ body
 .table
 {
     display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-left: 100px;
+    margin-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 .reseaux
 {
@@ -97,8 +104,7 @@ a:hover
 {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-
+    
 }
 .nomsite
 {
@@ -175,7 +181,7 @@ a:hover
     font-size: 1.2em;
     color:white;
     margin-top: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     margin-left: 16px;
 }
 .descripservice
@@ -185,5 +191,36 @@ a:hover
     color:white;
     margin: auto;
     padding-left: 16px;
-    margin-top: 4px;
+    margin-bottom: 8px;
+}
+.descripservicefin
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:white;
+    margin: auto;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
+.typeservice
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color:white;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-size: 1.4em;
+}
+.langues
+{
+display: flex;
+justify-content: center;
+}
+.drapeau
+{
+width: 30px;
+height: 18px;
+
 }
