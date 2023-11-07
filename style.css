@@ -216,11 +216,14 @@ a:hover
 .langues
 {
 display: flex;
-justify-content: center;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 10px;
 }
 .drapeau
 {
 width: 30px;
 height: 18px;
+margin-right: 20px;
 
 }
